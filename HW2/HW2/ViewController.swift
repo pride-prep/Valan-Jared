@@ -19,6 +19,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func ChickenButton(_ sender: Any) {
+    }
+    @IBAction func SteakButton(_ sender: Any) {
+    }
+    @IBAction func XbossButton(_ sender: Any) {
+        func ComputerButton(_ sender: Any) {
+        }
+        func TvButton(_ sender: Any) {
+        }
+    }
 
 
 }
