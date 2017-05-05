@@ -14,9 +14,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBOutlet weak var textfield1: UITextField!
     @IBOutlet weak var Firstlabel: UILabel!
     @IBAction func Button1(_ sender: Any) {
+        Firstlabel.text=textfield1.text
     }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
